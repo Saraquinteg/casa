@@ -30,6 +30,7 @@ st.title(":violet[CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
 " y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
 
+image = Image.open('sunrise.jpg')
 st.subheader(":violet[PASOS PARA ABRIR LA PUERTA]")
 st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta vanguardista que combina elegancia con tecnología de última generación."
 " Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
