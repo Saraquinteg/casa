@@ -1,11 +1,20 @@
 import streamlit as st
 import paho.mqtt.client as paho
 import time
-import streamlit as st
 import json
 values = 0.0
 act1="OFF"
-
+import os
+from bokeh.models.widgets import Button
+from bokeh.models import CustomJS
+from streamlit_bokeh_events import streamlit_bokeh_events
+from PIL import Image
+import time
+import glob
+import paho.mqtt.client as paho
+import json
+from gtts import gTTS
+from googletrans import Translator
 def on_publish(client,userdata,result):             #create function for callback
     print("el dato ha sido publicado \n")
     pass
