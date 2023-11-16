@@ -34,7 +34,7 @@ st.subheader(":violet[UTILIDAD 1]")
 st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta vanguardista que combina elegancia con tecnología de última generación."
 "Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
 
-st.subheader(":violet[Paso 1] simplemente pronuncia un comando personalizado, como "¡Abrir!" y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
+st.subheader(":violet[Paso 1] simplemente pronuncia un comando personalizado, como ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
 
 image = Image.open('voice_ctrl.jpg')
 st.image(image, width=200)
