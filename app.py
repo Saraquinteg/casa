@@ -27,14 +27,7 @@ client1= paho.Client("casa")
 client1.on_message = on_message
 
 st.markdown(
-    """
-    <style>
-        body {
-            background-image: url('gradient.png');
-            background-size: cover;
-        }
-    </style>
-    """,
+    '<style>body { background-image: url("gradient.png"); background-size: cover; }</style>',
     unsafe_allow_html=True
 )
 
