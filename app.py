@@ -31,7 +31,8 @@ base="dark"
 primaryColor="#cecdcd"
 backgroundColor="#6e4c73"
 secondaryBackgroundColor="#b16aa2"
-font="serif"
+
+
 
 st.title(":violet[CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
