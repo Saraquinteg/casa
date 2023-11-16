@@ -77,5 +77,9 @@ except:
     pass
 
 st.write(":violet[Paso 2] Simplemente pronuncia el comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
+st.write(":violet[Paso 3] Finalmente con comando personalizado: ¡Cerrar!, reversarás la acción .")
+st.TITLE(":violet[¡Y LISTO!]")
 
-
+st.subheader(":violet[PASOS PARA ABRIR LA PUERTA]")
+st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta vanguardista que combina elegancia con tecnología de última generación."
+" Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
