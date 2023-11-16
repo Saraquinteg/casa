@@ -27,10 +27,11 @@ client1= paho.Client("casa")
 client1.on_message = on_message
 
 with st.echo():
-    st.subheader(":violet[titles and headers]")
+    st.subheader(":violet[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
 with st.echo():
-    st.subheader("This also works in :pink[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
-st.title("BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE")
+    st.subheader("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.
+")
+
 st.subheader("CONTROL POR VOZ")
 image = Image.open('voice_ctrl.jpg')
 st.image(image, width=200)
