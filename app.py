@@ -29,10 +29,17 @@ client1.on_message = on_message
 st.subheader(":violet[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
 "y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
-    
+
+st.subheader(":violet[UTILIDAD 1]")
+st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta vanguardista que combina elegancia con tecnología de última generación."
+"Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
+
+st.subheader(":violet[Paso 1] simplemente pronuncia un comando personalizado, como "¡Abrir!" y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
+st.subheader(":violet[Paso 2]")
+st.subheader(":violet[Paso 3]")
 image = Image.open('voice_ctrl.jpg')
 st.image(image, width=200)
-
+st.subheader("This also works in :blue[titles and headers]")
 
 "# Colored text"
 st.caption("[Code for this demo](https://github.com/streamlit/release-demos/blob/master/1.16.0/colored-text/streamlit_app.py)")
