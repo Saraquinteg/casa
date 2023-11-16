@@ -26,24 +26,20 @@ port=1883
 client1= paho.Client("casa")
 client1.on_message = on_message
 
-st.title(":violet[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
-st.subheader("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
+st.subheader(":violet[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
+st.wrtite("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
 "y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
     
 image = Image.open('voice_ctrl.jpg')
 st.image(image, width=200)
 
-#icon("💅")
+
 "# Colored text"
 st.caption("[Code for this demo](https://github.com/streamlit/release-demos/blob/master/1.16.0/colored-text/streamlit_app.py)")
 "[Release 1.16.0](https://docs.streamlit.io/library/changelog#version-1160) of Streamlit adds support for colored text in all commands that support markdown! :tada:"
-
 "### Usage"
-
 st.code("st.markdown(':color[text to be colored]')")
-
 "Make sure to replace `color` with one of the..."
-
 "### Supported colors"
 
 """
@@ -55,27 +51,9 @@ st.code("st.markdown(':color[text to be colored]')")
 - :pink[pink]
 """
 
-"### Examples"
-
-with st.echo():
-    st.markdown(
-        "Text can be :blue[blue], but also :orange[orange]. And of course it can be :red[red]. And :green[green]. And look at this :violet[violet]!"
-    )
-
-"---"
-with st.echo():
-    st.subheader("This also works in :blue[titles and headers]")
-"---"
-with st.echo():
-    st.slider("And in :red[widget labels] 🎈")
-"---"
-with st.echo():
-    st.write("Combining **bold and :green[colored text] is totally** fine! Just like with other markdown features.")
-
-
 st.write("Toca el Botón y habla ")
-
 stt_button = Button(label=" Inicio ", width=200)
+
 
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
