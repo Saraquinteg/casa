@@ -35,7 +35,7 @@ st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta va
 " Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
 
 st.write(":violet[Paso 1] Presiona el botón que está aquí abajo para encender el micrófono y pronunciar el comando adecuado.")
-stt_button = Button(label="Presiona para hablar", width=200, button_type='success')
+stt_button = Button(label="Presiona para hablar", width=200)
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
