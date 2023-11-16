@@ -26,6 +26,19 @@ port=1883
 client1= paho.Client("casa")
 client1.on_message = on_message
 
+ st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background: url("voice_ctrl.jpg")
+    }
+   .sidebar .sidebar-content {
+        background: url("url_goes_here")
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 st.title(":violet[CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
 "y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
@@ -36,7 +49,7 @@ st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta va
 "Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
 
 st.write(":violet[Paso 1] Presiona el botón que está aquí abajo para encender el micrófono y pronunciar el comando adecuado.")
-stt_button = Button(label=":violet [Presiona para hablar]", width=200)
+stt_button = Button(label="Presiona para hablar", width=200)
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
