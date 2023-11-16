@@ -29,7 +29,7 @@ client1.on_message = on_message
 st.title("Lampara")
 
 if st.button('ON'):
-    act1="ON"
+    act1="HAB_on"
     client1= paho.Client("GIT-HUB2")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
@@ -43,7 +43,7 @@ else:
     st.write('')
 
 if st.button('OFF'):
-    act1="OFF"
+    act1="HAB_off"
     client1= paho.Client("GIT-HUB2")                           
     client1.on_publish = on_publish                          
     client1.connect(broker,port)  
