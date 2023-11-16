@@ -31,7 +31,7 @@ st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra
 " y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
 
 image = Image.open('voz.png')
-st.image('voz.png', width=1000, height=1500)
+st.image('voz.png', width=500)
 
 st.subheader(":violet[PASOS PARA ABRIR LA PUERTA]")
 st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta vanguardista que combina elegancia con tecnología de última generación."
