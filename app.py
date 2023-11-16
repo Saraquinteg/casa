@@ -60,11 +60,9 @@ result = streamlit_bokeh_events(
     events="GET_TEXT",
     key="listen",
     refresh_on_update=False,
-    override_width=40,
+    override_height=75,
     debounce_time=0)
     
-
-
 if result:
     if "GET_TEXT" in result:
         st.write(result.get("GET_TEXT"))
@@ -72,7 +70,7 @@ if result:
         client1.connect(broker, port)  
         message = json.dumps({"Act1": result.get("GET_TEXT").strip()})
         ret = client1.publish("house", message)
-
+        
 try:
     os.mkdir("temp")
 except:
