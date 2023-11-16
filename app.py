@@ -79,7 +79,7 @@ if result:
     except:
         pass
 
-st.write(":violet[Paso 2] Simplemente pronuncia EL comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
+st.write(":violet[Paso 2] Simplemente pronuncia el comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
 
 
 
