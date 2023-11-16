@@ -26,8 +26,8 @@ port=1883
 client1= paho.Client("casa")
 client1.on_message = on_message
 
-image = Image.background('voice_ctrl.jpg')
-st.image(image, width=500)
+[theme]
+backgroundColor = "#F0F0F0"
 
 st.title(":violet[CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
