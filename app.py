@@ -26,19 +26,12 @@ port = 1883
 client1 = paho.Client("casa")
 client1.on_message = on_message
 
-# Cambiar el color de fondo de toda la página
-st.markdown(
-    """
-    <style>
-        body {
-            background-color: #F2E7F7;  /* Rosa claro */
-            font-family: 'Arial', sans-serif;
-            color: #800080;  /* Morado */
-        }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+[theme]
+base="dark"
+primaryColor="#cecdcd"
+backgroundColor="#6e4c73"
+secondaryBackgroundColor="#b16aa2"
+font="serif"
 
 st.title(":violet[CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
