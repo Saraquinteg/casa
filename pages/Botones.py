@@ -33,8 +33,7 @@ image = Image.open('boton.png')
 st.image('voz.png', width=70)
 
 st.subheader(":violet[PASOS PARA ENCEDER LA LUZ]")
-st.write("
-¡Presentamos la increíble Luz Inteligente para la Casa de Barbie, la adición perfecta para iluminar y realzar la experiencia en el hogar de la muñeca más famosa del mundo."
+st.write("¡Presentamos la increíble Luz Inteligente para la Casa de Barbie, la adición perfecta para iluminar y realzar la experiencia en el hogar de la muñeca más famosa del mundo."
 "Esta innovadora luz combina la magia del diseño y la tecnología para brindar un toque moderno y elegante a cada rincón de la casa de Barbie.")
 
 st.write(":violet[Paso 1] Presiona el botón que está aquí "ON" para encender la luz.")
