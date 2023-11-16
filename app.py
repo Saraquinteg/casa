@@ -35,28 +35,9 @@ st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta va
 "Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
 
 st.subheader(":violet[Paso 1] simplemente pronuncia un comando personalizado, como "¡Abrir!" y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
-st.subheader(":violet[Paso 2]")
-st.subheader(":violet[Paso 3]")
+
 image = Image.open('voice_ctrl.jpg')
 st.image(image, width=200)
-st.subheader("This also works in :blue[titles and headers]")
-
-"# Colored text"
-st.caption("[Code for this demo](https://github.com/streamlit/release-demos/blob/master/1.16.0/colored-text/streamlit_app.py)")
-"[Release 1.16.0](https://docs.streamlit.io/library/changelog#version-1160) of Streamlit adds support for colored text in all commands that support markdown! :tada:"
-"### Usage"
-st.code("st.markdown(':color[text to be colored]')")
-"Make sure to replace `color` with one of the..."
-"### Supported colors"
-
-"""
-- :blue[blue]
-- :green[green]
-- :red[red]
-- :violet[violet]
-- :orange[orange]
-- :pink[pink]
-"""
 
 st.write("Toca el Botón y habla ")
 stt_button = Button(label=" Inicio ", width=200)
