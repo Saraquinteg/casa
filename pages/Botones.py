@@ -36,8 +36,8 @@ st.subheader(":violet[PASOS PARA ENCEDER LA LUZ]")
 st.write("¡Presentamos la increíble Luz Inteligente para la Casa de Barbie, la adición perfecta para iluminar y realzar la experiencia en el hogar de la muñeca más famosa del mundo."
 "Esta innovadora luz combina la magia del diseño y la tecnología para brindar un toque moderno y elegante a cada rincón de la casa de Barbie.")
 
-st.write(":violet[Paso 1] Presiona el botón que está aquí "ON" para encender la luz.")
-st.write(":violet[Paso 1] Presiona el botón que está aquí "Off" para apagar la luz.")
+st.write(":violet[Paso 1] Presiona el botón que está aquí ON para encender la luz.")
+st.write(":violet[Paso 1] Presiona el botón que está aquí OFF para apagar la luz.")
 st.title(":orange[¡Y LISTO!]")
 
 
