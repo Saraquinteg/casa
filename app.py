@@ -26,8 +26,6 @@ port=1883
 client1= paho.Client("casa")
 client1.on_message = on_message
 
-sidebar = { "backgroundColor": "#FFFFFF", "contrast": 1.2 }
-
 st.title(":violet[CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
 "y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
@@ -37,15 +35,12 @@ st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta va
 "Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
 
 st.subheader(":violet[Paso 1]Presiona el botón que está aquí abajo para encender el micrófono y pronunciar el comando adecuado.")
-st.write("simplemente pronuncia un comando personalizado, como ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
-st.write("Toca el Botón y habla ")
+st.subheader(":violet[Paso 2]Simplemente pronuncia EL comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
+
 
 stt_button = Button(label=" Presiona para hablar ", width=200)
-image = Image.open('voice_ctrl.jpg')
-st.image(image, width=200)
 
-st.write("Toca el Botón y habla ")
-stt_button = Button(label=" Presiona para hablar ", width=200)
+
 
 
 stt_button.js_on_event("button_click", CustomJS(code="""
