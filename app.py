@@ -34,11 +34,12 @@ st.subheader(":violet[PASOS PARA ABRIR LA PUERTA]")
 st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta vanguardista que combina elegancia con tecnología de última generación."
 "Esta puerta inteligente redefine la experiencia de acceso al hogar, proporcionando a Barbie un acceso fácil y seguro con tan solo un comando de voz.")
 
-st.subheader(":violet[Paso 1]Presiona el botón que está aquí abajo para encender el micrófono y pronunciar el comando adecuado.")
-st.subheader(":violet[Paso 2]Simplemente pronuncia EL comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
-
+st.write(":violet[Paso 1]Presiona el botón que está aquí abajo para encender el micrófono y pronunciar el comando adecuado.")
 
 stt_button = Button(label=" Presiona para hablar ", width=200)
+
+st.subheader(":violet[Paso 2]Simplemente pronuncia EL comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
+
 
 
 
