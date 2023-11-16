@@ -30,7 +30,7 @@ st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra
 " y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
 
 image = Image.open('boton.png')
-st.image('voz.png', width=70)
+st.image('boton.png', width=70)
 
 st.subheader(":violet[PASOS PARA ENCEDER LA LUZ]")
 st.write("¡Presentamos la increíble Luz Inteligente para la Casa de Barbie, la adición perfecta para iluminar y realzar la experiencia en el hogar de la muñeca más famosa del mundo."
