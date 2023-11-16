@@ -26,7 +26,8 @@ port=1883
 client1= paho.Client("casa")
 client1.on_message = on_message
 
-
+with st.echo():
+    st.subheader(":violet[titles and headers]")
 with st.echo():
     st.subheader("This also works in :pink[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
 st.title("BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE")
