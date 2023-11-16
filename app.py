@@ -33,7 +33,7 @@ st.subheader("CONTROL POR VOZ")
 image = Image.open('voice_ctrl.jpg')
 st.image(image, width=200)
 
-icon("💅")
+#icon("💅")
 "# Colored text"
 st.caption("[Code for this demo](https://github.com/streamlit/release-demos/blob/master/1.16.0/colored-text/streamlit_app.py)")
 "[Release 1.16.0](https://docs.streamlit.io/library/changelog#version-1160) of Streamlit adds support for colored text in all commands that support markdown! :tada:"
