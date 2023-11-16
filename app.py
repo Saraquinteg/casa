@@ -27,7 +27,7 @@ client1= paho.Client("casa")
 client1.on_message = on_message
 
 st.subheader(":violet[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
-st.wrtite("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo""
+st.wrtite("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
 "y comodidades modernas. Esta casa vanguardista redefine la experiencia de jugar con Barbie, ofreciendo un hogar totalmente conectado y equipado con las últimas innovaciones.")
     
 image = Image.open('voice_ctrl.jpg')
