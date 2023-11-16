@@ -37,18 +37,12 @@ st.write("La entrada principal de la Casa Inteligente de Barbie es una puerta va
 
 st.write(":violet[Paso 1] Presiona el botón que está aquí abajo para encender el micrófono y pronunciar el comando adecuado.")
 stt_button = Button(label=" Presiona para hablar ", width=200)
-
-st.subheader(":violet[Paso 2]Simplemente pronuncia EL comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
-
-
-
-
-
 stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
     recognition.interimResults = true;
- 
+
+
     recognition.onresult = function (e) {
         var value = "";
         for (var i = e.resultIndex; i < e.results.length; ++i) {
@@ -84,3 +78,11 @@ if result:
         os.mkdir("temp")
     except:
         pass
+
+st.write(":violet[Paso 2]Simplemente pronuncia EL comando personalizado: ¡Abrir! y la puerta se desliza suavemente hacia un lado, revelando el mundo lujoso y lleno de comodidades que aguarda en el interior.")
+
+
+
+
+
+ 
