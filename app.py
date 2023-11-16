@@ -26,12 +26,20 @@ port=1883
 client1= paho.Client("casa")
 client1.on_message = on_message
 
-<style>
-body {
-background-image: ('gradient.png');
-background-size: cover;
-}
-</style>
+st.markdown(
+    """
+    <style>
+        body {
+            background-image: url('gradient.png');
+            background-size: cover;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Contenido de la interfaz
+st.write("Contenido de la interfaz aquí.")
 
 st.title(":violet[CASA INTELIGENTE DE LA BARBIE]")
 st.write("Bienvenida a la Casa Inteligente de Barbie, donde la moda se encuentra con la tecnología en un entorno lleno de estilo"
