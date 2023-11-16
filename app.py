@@ -42,7 +42,7 @@ stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
     recognition.interimResults = true;
-    color: #FF5733;
+    border-color: #FF5733;
 
 
     recognition.onresult = function (e) {
