@@ -27,8 +27,9 @@ client1= paho.Client("casa")
 client1.on_message = on_message
 
 
-
-st.title("Interfaces Multimodales")
+with st.echo():
+    st.subheader("This also works in :pink[BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE]")
+st.title("BIENVENIDO A LA CASA INTELIGENTE DE LA BARBIE")
 st.subheader("CONTROL POR VOZ")
 image = Image.open('voice_ctrl.jpg')
 st.image(image, width=200)
@@ -52,6 +53,7 @@ st.code("st.markdown(':color[text to be colored]')")
 - :red[red]
 - :violet[violet]
 - :orange[orange]
+- :pink[pink]
 """
 
 "### Examples"
