@@ -60,7 +60,11 @@ result = streamlit_bokeh_events(
     events="GET_TEXT",
     key="listen",
     refresh_on_update=False,
+    overridehwidth=75,
+    override_height=40,
     debounce_time=0)
+    
+
 
 if result:
     if "GET_TEXT" in result:
