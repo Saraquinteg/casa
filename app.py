@@ -42,9 +42,6 @@ stt_button.js_on_event("button_click", CustomJS(code="""
     var recognition = new webkitSpeechRecognition();
     recognition.continuous = true;
     recognition.interimResults = true;
-    .stt_button > Button {
-    background-color: green;
-    }
 
 
     recognition.onresult = function (e) {
